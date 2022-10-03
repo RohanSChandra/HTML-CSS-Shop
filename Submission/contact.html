@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo-wrapper">
+          <img
+            class="logo"
+            src="./images/logo-transparent.png"
+            alt="plants-and-things-logo"
+          />
+        </div>
+
+        <nav class="nav">
+          <ul class="unordered-list">
+            <li><a class="anchor-box" href="./index.html">Home</a></li>
+            <li><a class="anchor-box" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="body-content contact-body">
+        <form action="https://formspree.io/f/xpzbdvda" method="post">
+          <h1>Feel free to get in touch anytime</h1>
+          <div>
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-input"
+              required
+            />
+          </div>
+          <div>
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input"
+              required
+            />
+          </div>
+          <div>
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-input text-height"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="button">Contact Us</button>
+        </form>
+        <div>
+          <h2>Contact Details</h2>
+          <p>
+            123 Fake Street,<br />
+            Auckland,<br />
+            New Zealand<br />
+            <br />
+            Phone: 09 12345678<br />
+          </p>
+          <a class="email-deco" href="mailto:sales@plantsandthings.co.nz"
+            >Email: sales@plantsandthings.co.nz</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
