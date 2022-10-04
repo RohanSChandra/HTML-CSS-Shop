@@ -1,6 +1,6 @@
 # HTML-CSS-Shop 
 
-This was a project that was assigned to me by Developers Institute (please note that boiler plate code was provided).
+This was a project that was assigned to me by Developers Institute.
 
 ## Learning Outcomes
 
